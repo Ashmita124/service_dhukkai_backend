@@ -20,7 +20,7 @@ const storage = multer.diskStorage({
   }
 });
 const upload = multer({ storage: storage });
-
+// 
 // Routes
 router.post('/save', upload.single('image'), createDoctor); // Create doctor with image upload
 router.get('/getAll', getAllDoctors);
