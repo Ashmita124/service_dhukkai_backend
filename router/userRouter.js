@@ -24,7 +24,7 @@ router.get('/:id', getByID);
 
 // Update a patient by ID (accessible by Admin and Patient)
 router.put('/update/:id', updateByID);
-
+// 
 // Delete a patient by ID (accessible by Admin only)
 router.delete('/:id', authentication, authorizeRoles('Admin'), deleteData);
 
