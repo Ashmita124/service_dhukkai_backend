@@ -1,14 +1,12 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 
-const connectDB = async () => {
-
-    try {
-        await mongoose.connect("mongodb://localhost:27017/db_wise_academy");
-        console.log("MongoDb connected")
-    } catch (e) {
-        console.log("MongoDb connection failed");
-
+const connectDB =async () =>{
+    try{
+    await mongoose.connect("mongodb://localhost:27017/myAster_db")
+    console.log("Database connection Successful")
+}catch(e){
+    console.log(e)
     }
-}
+};
 
 module.exports = connectDB;
