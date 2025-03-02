@@ -10,7 +10,7 @@ const postData = async (req, res) => {
         res.status(400).json({ error: error.message });
     }
 };
-
+// 
 // Get all patients
 const getData = async (req, res) => {
     try {
