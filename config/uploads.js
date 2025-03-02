@@ -18,7 +18,7 @@ const fileFilter = (req, file, cb) => {
         cb(new Error('Only image files are allowed!'), false);
     }
 };
-
+// 
 // Initialize upload middleware
 const upload = multer({
     storage: storage,
