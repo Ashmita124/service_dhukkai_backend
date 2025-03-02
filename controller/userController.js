@@ -21,7 +21,7 @@ const getData = async (req, res) => {
         res.status(500).json({ error: error.message });
     }
 };
-
+// 
 // Get a patient by ID
 const getByID = async (req, res) => {
     try {
