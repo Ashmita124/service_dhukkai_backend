@@ -3,7 +3,7 @@ const User = require("../models/user");
 const Doctor = require("../models/doctor");
 const transporter = require("../middleware/mailConfig"); // ✅ Use Existing Email Middleware
 const AppointmentEmail = require("../templets/AppointmentEmail"); // ✅ New Email Template
-
+// 
 // ✅ Schedule an Appointment
 const scheduleAppointment = async (req, res) => {
   try {
