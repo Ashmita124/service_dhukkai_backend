@@ -11,7 +11,7 @@ const placeOrder = async (req, res) => {
     if (!cart || cart.items.length === 0) {
       return res.status(400).json({ message: '❌ Cart is empty' });
     }
-
+// 
     // ✅ Calculate total price
     const total = cart.items.reduce((sum, item) => sum + item.quantity * item.productId.price, 0);
 
