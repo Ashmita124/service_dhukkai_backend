@@ -20,7 +20,7 @@ describe("Doctor API Tests", () => {
                     contact: "1234567800",
                     email: "johne@example.com"
                 });
-
+// 
             console.log("Doctor Created Response:", res.body); // Debug log
 
             expect(res).to.have.status(201);
