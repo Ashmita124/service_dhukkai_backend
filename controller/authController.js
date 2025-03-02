@@ -16,6 +16,7 @@ const generateToken = (user) => {
         { expiresIn: process.env.JWT_EXPIRE || "2h" }
     );
 };
+// 
 
 // ✅ Register a new user (Patient, Admin, or Doctor)
 const registerUser = async (req, res) => {
