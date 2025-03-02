@@ -19,5 +19,5 @@ router.get('/:id', getBookingById);
 
 // Cancel a booking
 router.put('/cancel/:id', cancelBooking);
-
+// 
 module.exports = router;
