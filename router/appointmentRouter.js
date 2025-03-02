@@ -21,3 +21,4 @@ router.get('/:id', getAppointmentById);
 router.put('/cancel/:id', cancelAppointment);
 
 module.exports = router;
+// 
