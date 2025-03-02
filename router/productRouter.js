@@ -18,5 +18,5 @@ router.put('/update/:id', upload.single('image'), updateProduct);
 
 // ✅ Delete a product
 router.delete('/delete/:id', deleteProduct);
-
+// 
 module.exports = router;
