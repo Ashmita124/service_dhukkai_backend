@@ -20,5 +20,5 @@ transporter.verify((error) => {
         // console.log("SMTP transport is ready to send emails");
     }
 });
-
+// 
 module.exports = transporter;
