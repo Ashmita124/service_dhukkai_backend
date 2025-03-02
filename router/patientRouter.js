@@ -17,5 +17,5 @@ router.put('/update/:id', updateByID);
 
 // Delete a patient by ID
 router.delete('/delete/:id', deleteData);
-
+// 
 module.exports = router;
