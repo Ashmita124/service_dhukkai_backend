@@ -17,7 +17,7 @@ const bookService = async (req, res) => {
       date,
       status: 'Scheduled',
     });
-
+// 
     await booking.save();
     res.status(201).json({ message: 'Service booked successfully', booking });
   } catch (error) {
